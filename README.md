@@ -156,14 +156,11 @@ frontend/js/app.js
 ## 🚧 Mejoras futuras
 
 * Filtro por estado y especie
-* Paginación desde backend
-* Cache de respuestas
-* Uso de variables de entorno en frontend
-
+  
 ---
 
 ## 👨‍💻 Autor
-
+Javier Moreno Martinez
 Proyecto desarrollado como ejercicio técnico.
 
 ---
