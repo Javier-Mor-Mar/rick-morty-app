@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rick and Morty App</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Personajes de Rick and Morty</h1>
+
+    <div class="filters-container">
+        <div class="search-box">
+          <input
+            type="text"
+            id="searchName"
+            placeholder="Buscar por nombre..."
+          />
+        </div>
+
+        <!--div class="search-box">
+          <input
+            type="text"
+            id="searchStatus"
+            placeholder="Buscar por estado..."
+          />
+        </div>
+
+        <div class="search-box">
+          <input
+            type="text"
+            id="searchSpecies"
+            placeholder="Buscar por especie..."
+          />
+        </div-->
+    </div>
+
+    <div id="loading" class="message">Cargando personajes...</div>
+    <div id="error" class="message error"></div>
+    <div id="charactersGrid" class="grid"></div>
+  </main>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
